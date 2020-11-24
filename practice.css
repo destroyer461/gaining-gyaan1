@@ -1,0 +1,26 @@
+body{
+background-color:cornflowerblue;
+align-self: center;
+}
+.menu{
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 100px;
+    z-index: 10;
+    cursor: pointer;
+}
+.link:hover{
+    background-color:brown;
+}
+.link{
+    float: left;
+    color: #fff;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-top: 5px;
+    padding-right: 9px;
+    font-family: fantasy;
+    font-size: 20px;
+}
